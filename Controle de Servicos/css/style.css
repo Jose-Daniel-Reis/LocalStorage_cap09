@@ -1,0 +1,28 @@
+img {
+  float: left;
+  max-width: 300px;
+  max-height: 300px;
+}
+#btn {
+  margin-top: 20px;
+}
+
+.servicos {
+  float: right;
+  margin-right: 20px;
+  font-family: var(--bs-body-font-family);
+}
+.execucao {
+  margin-left: 300px;
+  margin-top: 50px;
+  background-color: #0d6efd;
+  color: white;
+  font-weight: var(--bs-body-font-weight);
+}
+.lista {
+  display: flex;
+  justify-content: start;
+  font-family: var(--bs-body-font-family);
+  margin-left: 300px;
+  font-weight: var(--bs-body-font-weight);
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0 maximum-scale=1.0"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Controle de Serviços</title>
+  </head>
+  <body>
+    <img src="./image/checklist.jpg" alt="imagem check list" />
+    <h1>Herbie: Controle de Serviços</h1>
+    <form>
+      <label
+        ><p>Serviço - Veículo:</p>
+        <input type="text" id="inServico" autofocus />
+      </label>
+
+      <p id="btn">
+        <input
+          type="submit"
+          value="Adicionar Serviço"
+          class="btn btn-primary"
+        />
+        <input
+          type="button"
+          id="btExecutarServico"
+          value="Executar Serviço"
+          class="btn btn-secondary"
+        />
+      </p>
+    </form>
+
+    <h3 class="servicos"></h3>
+    <h5 class="execucao"></h5>
+    <pre class="lista"></pre>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
